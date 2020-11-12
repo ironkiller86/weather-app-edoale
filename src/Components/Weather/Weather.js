@@ -1,7 +1,14 @@
 import React from "react";
 
-const Weather = ({ description, city, error, temperature, humidity }) => {
-  console.log("weather", temperature);
+const Weather = ({
+  description,
+  city,
+  error,
+  temperature,
+  humidity,
+  iconId,
+}) => {
+  console.log("weather", temperature, iconId);
   return (
     <div className="weather">
       {city && <p>{city}</p>}

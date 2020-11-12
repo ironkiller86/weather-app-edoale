@@ -1,0 +1,39 @@
+.fieldCity {
+  height: 40px;
+  width: 180px;
+  box-shadow: 0px 0px 25px 1px rgba(50, 50, 50, 0.1);
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  padding: 0px 10px 0px 10px;
+}
+.fieldCity:focus {
+  outline: none;
+}
+
+form {
+  display: flex;
+  max-width: 300px;
+  justify-content: space-around;
+
+  width: 20%;
+}
+button:hover {
+  background-color: red;
+}
+
+.btnForm {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: 800;
+}
+
+.btnForm:hover {
+  background-color: lightgrey;
+  color: green;
+}
+.btnForm::after {
+  outline-color: green;
+}
