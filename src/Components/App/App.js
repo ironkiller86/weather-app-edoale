@@ -5,7 +5,7 @@ import WeatherBox from "../weatherBox";
 import { useState, useEffect } from "react";
 import Form from "../Form/Form";
 const lang = "it";
-const APIKEY = "93abd6fd23fb0a267160c5a2015e810b";
+const APIKEY = "";
 const kelvinConstant = 273.15;
 const App = () => {
   /**
